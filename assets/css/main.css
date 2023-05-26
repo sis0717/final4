@@ -1,0 +1,105 @@
+/* Basic */
+
+
+html {
+	box-sizing: border-box;
+}
+
+#page-wrapper {
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #bababb;
+	color: #ffffff;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 16.5pt;
+	font-weight: 300;
+	line-height: 1.65;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* logo */
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	z-index: 200;
+	margin: auto;
+	height: inherit;
+	width: 50%;
+}
+
+
+.logo p {
+	color: #ffffff;
+	font-family: Raleway, Helvetica, sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	padding: 2px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/* Header */
+
+#header {
+	transition: background-color 0.2s ease-in-out;
+	background-color: #00375B;
+	height: 3.5em;
+	line-height: 3.5em;
+	padding: 0 1.25em;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 736px) {
+
+	#header {
+		height: 2.75em;
+		line-height: 2.75em;
+	}
+
+
+
+}
