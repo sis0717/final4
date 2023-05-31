@@ -395,7 +395,7 @@ article{
 
 }
 
-.reno8z{
+.reno8{
     width: 400px;
     height: 350px;
     margin-left: 40%;
@@ -553,14 +553,18 @@ p{
 }
 
 h3{
-    font-weight: bold;
-    float: left;
+    position: absolute;
+
 }
 
-h3 p{
+.sth p{
     text-align: center;
     font-family: 微軟正黑體;
     font-size: 18px;
+}
+
+.commentstar{
+    text-align: center;
 }
 
 .reviewbroad{
@@ -647,6 +651,10 @@ footer {
     color: #444444;
     text-align: center;
     line-height: 30px;
-    height: 100px;
-    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 110px;
 }
+
