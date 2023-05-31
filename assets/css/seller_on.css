@@ -496,7 +496,7 @@ article{
     margin-left: 23%;
 }
 
-.btn{
+main .button{
     margin: 20px;
     margin-left: 13%;  
     width: 400px;
@@ -550,11 +550,12 @@ p{
 }
 
 h3{
+    position: absolute;
     font-weight: bold;
-    float: left;
+
 }
 
-h3 p{
+.sth p{
     text-align: center;
     font-family: 微軟正黑體;
     font-size: 18px;

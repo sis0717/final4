@@ -377,6 +377,7 @@ label #cancel {
     visibility: visible;
 }
 
+
 article{
     margin:0px;
     padding: 10px;
@@ -496,7 +497,7 @@ article{
     margin-left: 23%;
 }
 
-.btn{
+.button{
     margin: 20px;
     margin-left: 10%;  
     width: 200px;
@@ -550,11 +551,12 @@ p{
 }
 
 h3{
+    position: absolute;
     font-weight: bold;
-    float: left;
+
 }
 
-h3 p{
+.sth p{
     text-align: center;
     font-family: 微軟正黑體;
     font-size: 18px;
