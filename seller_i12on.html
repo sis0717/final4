@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css//10III_product.css">
+    <link rel="stylesheet" href="assets/css/seller_i12on.css">
     <link rel="stylesheet" href="assets/css/headerr.css">
     <link rel="icon" href="images/icon.jpg" type="image/x-icon"  >
     <script src="https://kit.fontawesome.com/605c912c10.js" crossorigin="anonymous"></script>
@@ -101,54 +101,16 @@
 	    </div>
 
     <main>
-        <section class="imgg"> <!--幻燈片-->
-            <div class="slideshow-container3">
-    
-                <div class="mySlides fade">
-                    <img src="images/Sony/10III/IMG_3486.JPG">
-                </div>
-                <div class="mySlides fade">
-                    <img src="images/Sony/10III/IMG_3487.JPG">
-                </div>
-                <div class="mySlides fade">
-                    <img src="images/Sony/10III/IMG_3488.JPG">
-                </div>
-                
-            </div>
-            <br>
-            <div style="margin-left: 60%;">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <script>
-                    let slideIndex = 0;
-                    showSlides();
+        <div class="imgg">
+            <img class="i12" src="images/apple/i12/IMG_3445.JPG" alt="iphone-12">
+        </div>
         
-                    function showSlides() {
-                        let i;
-                        let slides = document.getElementsByClassName("mySlides");
-                        let dots = document.getElementsByClassName("dot");
-                        for (i = 0; i < slides.length; i++) {
-                            slides[i].style.display = "none";
-                        }
-                        slideIndex++;
-                        if (slideIndex > slides.length) { slideIndex = 1 }
-                        for (i = 0; i < dots.length; i++) {
-                            dots[i].className = dots[i].className.replace(" active", "");
-                        }
-                        slides[slideIndex - 1].style.display = "block";
-                        dots[slideIndex - 1].className += " active";
-                        setTimeout(showSlides, 2000); // 兩秒後換照片
-                    }
-                </script>
-        </section>
         
         <div class="info">
-            <h1 class="name">SONY 10III</h1>
+            <h1 class="name">IPhone 12</h1>
 
             <div class="price">
-                <h2 class="nt">NT.10990</h2>
+                <h2 class="nt">NT.20900</h2>
             </div>
 
             <div class="love">
@@ -159,10 +121,12 @@
                 <h2 class="color">color</h2>
                 <select class="choose" name="color">
                     <option value=""selected class="choose">請選擇顏色</option>
-                    <option value="水漾黑" class="choose">水漾黑</option>
-                    <option value="水漾白" class="choose">水漾白</option>
-                    <option value="水漾藍" class="choose">水漾藍</option>
-                    <option value="水漾粉" class="choose">水漾粉</option>
+                    <option value="星光色" class="choose">星光色</option>
+                    <option value="午夜色" class="choose">午夜色</option>
+                    <option value="藍色" class="choose">藍色</option>
+                    <option value="粉紅色" class="choose">粉紅色</option>
+                    <option value="綠色" class="choose">綠色</option>
+                    <option value="紅色" class="choose">紅色</option>
                 </select>
             </div>
             <div class="number">
@@ -187,7 +151,7 @@
             </script>
 
             <div>
-                <button class="cart">ADD TO CART</button>
+                <button class="button">上架</button>
             </div>
             
         </div>

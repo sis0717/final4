@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css//10III_product.css">
+    <link rel="stylesheet" href="assets/css/seller_findn2on.css">
     <link rel="stylesheet" href="assets/css/headerr.css">
     <link rel="icon" href="images/icon.jpg" type="image/x-icon"  >
     <script src="https://kit.fontawesome.com/605c912c10.js" crossorigin="anonymous"></script>
@@ -101,54 +101,16 @@
 	    </div>
 
     <main>
-        <section class="imgg"> <!--幻燈片-->
-            <div class="slideshow-container3">
-    
-                <div class="mySlides fade">
-                    <img src="images/Sony/10III/IMG_3486.JPG">
-                </div>
-                <div class="mySlides fade">
-                    <img src="images/Sony/10III/IMG_3487.JPG">
-                </div>
-                <div class="mySlides fade">
-                    <img src="images/Sony/10III/IMG_3488.JPG">
-                </div>
-                
-            </div>
-            <br>
-            <div style="margin-left: 60%;">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <script>
-                    let slideIndex = 0;
-                    showSlides();
+        <div class="imgg">
+            <img class="find_n2" src="images/OPPO/Find N2 flip/000.png" alt="Find N2 flip">
+        </div>
         
-                    function showSlides() {
-                        let i;
-                        let slides = document.getElementsByClassName("mySlides");
-                        let dots = document.getElementsByClassName("dot");
-                        for (i = 0; i < slides.length; i++) {
-                            slides[i].style.display = "none";
-                        }
-                        slideIndex++;
-                        if (slideIndex > slides.length) { slideIndex = 1 }
-                        for (i = 0; i < dots.length; i++) {
-                            dots[i].className = dots[i].className.replace(" active", "");
-                        }
-                        slides[slideIndex - 1].style.display = "block";
-                        dots[slideIndex - 1].className += " active";
-                        setTimeout(showSlides, 2000); // 兩秒後換照片
-                    }
-                </script>
-        </section>
         
         <div class="info">
-            <h1 class="name">SONY 10III</h1>
+            <h1 class="name">Find N2 flip</h1>
 
             <div class="price">
-                <h2 class="nt">NT.10990</h2>
+                <h2 class="nt">NT.31990</h2>
             </div>
 
             <div class="love">
@@ -159,10 +121,8 @@
                 <h2 class="color">color</h2>
                 <select class="choose" name="color">
                     <option value=""selected class="choose">請選擇顏色</option>
-                    <option value="水漾黑" class="choose">水漾黑</option>
-                    <option value="水漾白" class="choose">水漾白</option>
-                    <option value="水漾藍" class="choose">水漾藍</option>
-                    <option value="水漾粉" class="choose">水漾粉</option>
+                    <option value="星光色" class="choose">月曜紫</option>
+                    <option value="午夜色" class="choose">天際黑</option>
                 </select>
             </div>
             <div class="number">
@@ -187,7 +147,7 @@
             </script>
 
             <div>
-                <button class="cart">ADD TO CART</button>
+                <button class="button">上架</button>
             </div>
             
         </div>
@@ -203,21 +163,23 @@
             <legend class="rev"><h1>評論</h1></legend>
             <img class="people" src="images/people.png" alt="">
             <div class="sth">
-                <h3>小戴</h3> 
+                <h3>頂戴轟</h3> 
                 <div class="commentstar">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                     <span class="fa fa-star checked"></span>
                 </div>
                 <p>2023/05/25</p>
-                <p>好用!讚!</p>
+                <p>好餓好餓好餓</p>
                 </div>
 
             <hr style="color: #686868; size: 3px;border-style: dotted;">
 
             <img class="people" src="images/people.png" alt="">
             <div class="sth">
-            <h3>沈蓁</h3> 
+            <h3>沈博熱美</h3> 
             <div class="commentstar">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -225,20 +187,22 @@
                 <span class="fa fa-star checked"></span>
             </div>
             <p>2023/05/25</p>
-            <p>讚讚讚</p>
+            <p>好想打特戰嗚嗚嗚</p>
             </div>
 
             <hr style="color: #686868; size: 3px;border-style: dotted;">
 
             <img class="people" src="images/people.png" alt="">
             <div class="sth">
-            <h3>賴大媽</h3> 
+            <h3>馬龜拉拉</h3> 
             <div class="commentstar">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
             <p>2023/05/25</p>
-            <p>讚</p>
+            <p>好想好想睡啊啊啊啊啊</p>
             </div>
         </fieldset>
         
