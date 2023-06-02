@@ -101,10 +101,44 @@
 	    </div>
 
     <main>
-        <div class="imgg">
-            <img class="reno8z" src="images/OPPO/Reno8 Z/IMG_3474.PNG" alt="reno8z">
-        </div>
+        <!--幻燈片-->
+        <section class="imgg"> 
+            <div class="slideshow">
+    
+                <div class="Slides fade">
+                    <img src="images/OPPO/Reno8 Z/IMG_3474.PNG">
+                </div>
+                <div class="Slides fade">
+                    <img src="images/OPPO/Reno8 Z/IMG_3477.JPG">
+                </div>
+                <div class="Slides fade">
+                    <img src="images/OPPO/Reno8 Z/002.png">
+                </div>
+                
+            </div>
+            
+                <script>
+                    var slideIndex = 0; //從第1張照片開始
+                    showSlides();
         
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("Slides"); 
+                        
+                        //隱藏幻燈片、只顯示一張幻燈片
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) { 
+                            slideIndex = 1 
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        
+                        setTimeout(showSlides, 2000); // 兩秒後換照片
+                    }
+                </script>
+        </section>
         
         <div class="info">
             <h1 class="name">Reno8 Z</h1>

@@ -23,33 +23,6 @@
 				</a>
 			</div>
 			
-			<div class="righticon">
-				<ul>						
-				<li>
-					<div class="search_wrap">
-						<div class="search_box">
-							<input type="text" class="input" placeholder="search...">
-							<div class="btn">
-								<p><i class="fa-solid fa-magnifying-glass"></i></p>
-							</div>
-						</div>
-					</div>
-				</li>
-
-				<li>
-                    <a href="user.html">
-                    <i class="fa-solid fa-circle-user" id="iconuser" ></i>
-                    </a>
-                </li>
-					
-				<li>
-                    <a href="user.html">
-                    <i class="fa-solid fa-cart-plus" id="iconcart"></i>
-                    </a>
-                </li>
-
-				</ul>
-			</div>			
 		</header>
 
 			<!-- Menu -->
@@ -101,44 +74,40 @@
 	    </div>
 
     <main>
-        <section class="imgg"> <!--幻燈片-->
-            <div class="slideshow-container3">
+        <!--幻燈片-->
+        <section class="imgg"> 
+            <div class="slideshow">
     
-                <div class="mySlides fade">
+                <div class="Slides fade">
                     <img src="images/Sony/10III/IMG_3486.JPG">
                 </div>
-                <div class="mySlides fade">
+                <div class="Slides fade">
                     <img src="images/Sony/10III/IMG_3487.JPG">
                 </div>
-                <div class="mySlides fade">
+                <div class="Slides fade">
                     <img src="images/Sony/10III/IMG_3488.JPG">
                 </div>
                 
             </div>
-            <br>
-            <div style="margin-left: 60%;">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+            
                 <script>
-                    let slideIndex = 0;
+                    var slideIndex = 0; //從第1張照片開始
                     showSlides();
         
                     function showSlides() {
-                        let i;
-                        let slides = document.getElementsByClassName("mySlides");
-                        let dots = document.getElementsByClassName("dot");
+                        var i;
+                        var slides = document.getElementsByClassName("Slides"); 
+                        
+                        //隱藏幻燈片、只顯示一張幻燈片
                         for (i = 0; i < slides.length; i++) {
-                            slides[i].style.display = "none";
+                            slides[i].style.display = "none";  
                         }
                         slideIndex++;
-                        if (slideIndex > slides.length) { slideIndex = 1 }
-                        for (i = 0; i < dots.length; i++) {
-                            dots[i].className = dots[i].className.replace(" active", "");
+                        if (slideIndex > slides.length) { 
+                            slideIndex = 1 
                         }
                         slides[slideIndex - 1].style.display = "block";
-                        dots[slideIndex - 1].className += " active";
+                        
                         setTimeout(showSlides, 2000); // 兩秒後換照片
                     }
                 </script>
