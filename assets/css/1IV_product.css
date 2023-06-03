@@ -1,11 +1,13 @@
-/*商品頁面*/
+/*商品照片*/
 
 .imgg{
     position: absolute;
     top: 20%;
     left: 20%;
     display: block;
-}   
+}
+
+/*商品名稱*/
 
 .IV{
     width: 400px;
@@ -21,11 +23,19 @@
     font-size: 300%;
 }
 
+/*商品價格*/
+
 .price{
     float: left;
     width: 50%;
     
 }
+
+.nt{
+    margin: 5%;
+    margin-left: 40%;
+}
+
 
 /*加入最愛*/
 
@@ -40,17 +50,12 @@
     height: 25px;
 }
 
-/*價錢*/
-
-.nt{
-    margin: 5%;
-    margin-left: 40%;
-}
-
-/*顏色選項*/
+/*顏色、顏色選項*/
 
 .color{
-    margin-left: 20%;
+    position: relative;
+    left: 20%;
+    top: 40%;
 }
 
 .choose{
@@ -62,9 +67,9 @@
     width: 20%;
     text-align: center; 
     position: relative;
-    top: 50%;  
+    top: 30%;  
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-30%, -100%);
 }
 
 
@@ -110,6 +115,8 @@
     margin-left: 23%;
 }
 
+/*加入購物車*/
+
 .cart{
     margin: 20px;
     margin-left: 15%;  
@@ -121,6 +128,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#686868;
 }
+
+/*商品介紹*/
 
 .introduce{
     margin-left: 20%;
@@ -139,6 +148,8 @@ p{
     font-size: 18px;
 }
 
+/*評價*/
+
 .review{
     margin-top: 5%;
     margin-left: 20%;
@@ -148,6 +159,8 @@ p{
 .rev{
     margin-left: 45%;   
 }
+
+/*評價頭像*/
 
 .people{
     margin: 18px;
@@ -163,6 +176,7 @@ p{
     width: 70%;
 }
 
+
 h3{
     position: absolute;
     font-weight: bold;
@@ -175,9 +189,13 @@ h3{
     font-size: 18px;
 }
 
+/*評價裡的星星*/
+
 .commentstar{
     text-align: center;
 }
+
+/*評價留言板*/
 
 .reviewbroad{
     margin-top: 5%;
@@ -188,6 +206,8 @@ h3{
 .reviewbroad textarea{
     resize: none;
 }
+
+/*評分*/
 
 .star-rating {
     font-size: 0;
@@ -242,6 +262,7 @@ h3{
     opacity: 1;
 }
 
+/*輸入留言*/
 
 .commentinput{
     border-radius: 5px;
@@ -249,6 +270,8 @@ h3{
     border-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/*送出留言*/
 
 .commentsubmit{
     margin: 20px; 
@@ -261,6 +284,8 @@ h3{
     color:#686868;
 }
 
+/*footer*/
+
 footer {
     padding: 10px;
     color: #444444;
@@ -272,6 +297,8 @@ footer {
     position: relative;
     margin-top: 110px;
 }
+
+/*回到頂端*/
 
 .gotopbtn {
     position: fixed;

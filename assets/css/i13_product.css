@@ -75,7 +75,9 @@
 /*顏色選項*/
 
 .color{
-    margin-left: 20%;
+    position: relative;
+    left: 20%;
+    top: 40%;
 }
 
 .choose{
@@ -87,9 +89,9 @@
     width: 20%;
     text-align: center; 
     position: relative;
-    top: 50%;  
+    top: 30%;  
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-30%, -100%);
 }
 
 
