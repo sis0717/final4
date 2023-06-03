@@ -212,10 +212,6 @@ h3{
     width: 60%;
 }
 
-.reviewbroad textarea{
-    resize: none;
-}
-
 .star-rating {
     font-size: 0;
     white-space: nowrap;
@@ -224,7 +220,7 @@ h3{
     height: 30px;
     overflow: hidden;
     position: relative;
-    background: url(images/star.png);
+    background-image: url("../../images/yi/icon/star.png");
     background-size: contain;
 }
 
@@ -261,7 +257,7 @@ h3{
     height: 100%;
     width: 20%;
     z-index: 1;
-    background: url(images/black_star.png);
+    background-image: url("../../images/yi/icon/black_star.png");
     background-size: contain;
 }
 

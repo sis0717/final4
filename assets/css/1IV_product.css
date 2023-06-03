@@ -55,7 +55,7 @@
 .color{
     position: relative;
     left: 20%;
-    top: 40%;
+    top: 36%;
 }
 
 .choose{
@@ -67,7 +67,7 @@
     width: 20%;
     text-align: center; 
     position: relative;
-    top: 30%;  
+    top: 40%;  
     left: 50%;
     transform: translate(-30%, -100%);
 }
@@ -217,7 +217,7 @@ h3{
     height: 30px;
     overflow: hidden;
     position: relative;
-    background: url(images/star.png);
+    background-image: url("../../images/yi/icon/star.png");
     background-size: contain;
 }
 
@@ -254,7 +254,7 @@ h3{
     height: 100%;
     width: 20%;
     z-index: 1;
-    background: url(images/black_star.png);
+    background-image: url("../../images/yi/icon/black_star.png");
     background-size: contain;
 }
 
@@ -312,4 +312,8 @@ footer {
     line-height: 50px;
     color: #fff;
     font-size: 22px;
+}
+
+@media screen and(max-width:800px) {
+    
 }

@@ -199,7 +199,7 @@ h3{
     height: 30px;
     overflow: hidden;
     position: relative;
-    background: url(images/star.png);
+    background-image: url("../../images/yi/icon/star.png");
     background-size: contain;
 }
 
@@ -236,12 +236,30 @@ h3{
     height: 100%;
     width: 20%;
     z-index: 1;
-    background: url(images/black_star.png);
+    background-image: url("../../images/yi/icon/black_star.png");
     background-size: contain;
 }
 
 .star-rating input:checked+i {
     opacity: 1;
+}
+
+.commentinput{
+    border-radius: 5px;
+    font-size: 20px;
+    border-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.commentsubmit{
+    margin: 20px; 
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #686868;
+    background-color: #DDDDDD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#686868;
 }
 
 footer {
