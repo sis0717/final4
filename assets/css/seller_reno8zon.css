@@ -157,13 +157,19 @@
 
 .introduce{
     margin-left: 20%;
-    padding: 5%;
+    padding: 3%;
     width: 60%;
     
 }
 
 .intro{
     margin-left: 41%;
+}
+
+h2{
+    text-align: left;
+    font-family: 微軟正黑體;
+    font-weight: bold;
 }
 
 p{

@@ -126,13 +126,20 @@
 
 .introduce{
     margin-left: 20%;
-    padding: 5%;
+    padding: 3%;
     width: 60%;
     
 }
 
 .intro{
     margin-left: 41%;
+}
+
+li{
+    position: relative;
+    left: 35%;
+    text-align: left;
+    font-size: 18px;
 }
 
 p{
