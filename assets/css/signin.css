@@ -12,6 +12,8 @@ body{
     background-color: #7B86AA;
 }
 
+/*右邊區塊*/
+
 .yellow{
     background-color: #B9BAC5;
     width: 1000px;
@@ -20,6 +22,8 @@ body{
     margin-left: 270px;
 }
 
+/*左邊區塊*/
+
 .logo{
     background-color: #36344F;
     width: 1000px;
@@ -27,6 +31,8 @@ body{
     clip-path: polygon(0 0, 55% 0, 35% 100%, 0% 100%);
 
 }
+
+/*帳號密碼*/
 
 .input{
     float: right;
@@ -39,25 +45,15 @@ body{
     padding: 20px;
 }
 
+/*分隔線*/
+
 span{
     padding: 10px;  
 }
 
-.user{
-    text-align: left;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 95%;
-    height: 40px;
-    background: transparent;
-    padding: 0 10px 0 80px;
-    transition: all 0.4s;
-    display: block;
-    border: none;
-    padding: 10px;
-}
+/*欄位*/
 
-.password{
+.user .password{
     text-align: left;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -84,6 +80,8 @@ span{
     justify-content: center;
 }
 
+/*登入按鈕*/
+
 .log{ 
     width: 200px;
     height: 60px;
@@ -98,6 +96,8 @@ span{
     background-color:#989B99 ;
     color: #4B3A39;
 }
+
+/*logo設定*/
 
 .icon{
     width: 25%;

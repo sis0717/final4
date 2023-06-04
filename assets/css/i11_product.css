@@ -137,6 +137,8 @@
     margin-left: 23%;
 }
 
+/*加入購物車*/
+
 .cart{
     margin: 20px;
     margin-left: 15%;  
@@ -149,6 +151,8 @@
     color:#686868;
 }
 
+/*邊框*/
+
 .introduce{
     margin-left: 20%;
     padding: 3%;
@@ -156,9 +160,13 @@
     
 }
 
+/*標題*/
+
 .intro{
     margin-left: 41%;
 }
+
+/*內容標題*/
 
 h2{
     text-align: left;
@@ -166,11 +174,15 @@ h2{
     font-weight: bold;
 }
 
+/*內文文字*/
+
 p{
     text-align: center;
     font-family: 微軟正黑體;
     font-size: 18px;
 }
+
+/*評價邊框*/
 
 .review{
     margin-top: 5%;
@@ -178,15 +190,21 @@ p{
     width: 60%;
 }
 
+/*評價標題*/
+
 .rev{
     margin-left: 45%;   
 }
+
+/*用戶頭像*/
 
 .people{
     margin: 18px;
     width: 8%;
     margin-left: 15%;
 }
+
+/*每個人的評論區塊*/
 
 .sth{
     padding: 10px;
@@ -196,11 +214,15 @@ p{
     width: 70%;
 }
 
+/*暱稱*/
+
 h3{
     position: absolute;
     font-weight: bold;
 
 }
+
+/*評論*/
 
 .sth p{
     text-align: center;
@@ -208,9 +230,13 @@ h3{
     font-size: 18px;
 }
 
+/*星星*/
+
 .commentstar{
     text-align: center;
 }
+
+/*評論版邊框*/
 
 .reviewbroad{
     margin-top: 5%;
@@ -218,9 +244,13 @@ h3{
     width: 60%;
 }
 
+/*評論版區域*/
+
 .reviewbroad textarea{
     resize: none;
 }
+
+/*星星樣式*/
 
 .star-rating {
     font-size: 0;
@@ -234,6 +264,8 @@ h3{
     background-size: contain;
 }
 
+/*星星排版*/
+
 .star-rating input {
     opacity: 0;
     display: inline-block;
@@ -244,6 +276,8 @@ h3{
     z-index: 2;
     position: relative;
 }
+
+/*點擊的星星等級*/
 
 .star-rating i~i {
     width: 40%;
@@ -259,6 +293,9 @@ h3{
 .star-rating i~i~i~i~i {
     width: 100%;
 }
+
+/*點擊後的星星變化*/
+
 .star-rating i {
     opacity: 0;
     position: absolute;
@@ -270,6 +307,8 @@ h3{
     background-image: url("../../images/yi/icon/black_star.png");
     background-size: contain;
 }
+
+/*點擊*/
 
 .star-rating input:checked+i {
     opacity: 1;

@@ -12,6 +12,8 @@ main{
     grid-gap: 10px;
 }
 
+/*卡片設置*/
+
 .card {
     padding: 20px;
     margin: 10px;
@@ -19,6 +21,8 @@ main{
     background-size: cover;
     text-align: center;
 }
+
+/*標題*/
 
 h1 {
     padding: 10px 10px;
@@ -32,9 +36,13 @@ h1 {
         3px 3px 0 #686868;
 }
 
+/*hover顏色變化*/
+
 h1:hover {
     color: #D6BCA3;
 }
+
+/*點選箭頭*/
 
 #iconarrow {
     top: 40%;

@@ -158,6 +158,10 @@
     margin-left: 41%;
 }
 
+.reviewbroad textarea{
+    resize: none;
+}
+
 p{
     text-align: center;
     font-family: 微軟正黑體;
