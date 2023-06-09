@@ -120,11 +120,10 @@
     margin-left: 41%;
 }
 
-.intro li{
-    position: relative;
-    left: 35%;
+.intro h2{
     text-align: left;
-    font-size: 18px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
 }
 
 p{
@@ -235,6 +234,7 @@ h3{
 .star-rating input:checked+i {
     opacity: 1;
 }
+
 
 .commentinput{
     border-radius: 5px;
